@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
-html{
-   font-size: 16px;
-}
-
 body{
     background-color: #F4D04E;
     position: relative;
@@ -75,15 +71,16 @@ body{
 }
 
 .article-text{
-   margin-bottom: 30px;
+   margin-bottom: 20px;
    font-weight: 500;
    font-size: 0.875rem;
    color: #6b6b6b;
+   line-height: 150%;
 }
 
 .article-author{
    font-weight: 800;
-   font-size: 1rem;
+   font-size: 0.875rem;
    display: flex;
    align-items: center;
    text-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
@@ -114,7 +111,7 @@ body{
       font-size: 0.875rem;
    }
 
-   .article-text, .article-author{
+   .article-text{
       font-size: 1rem;
    }
 }
