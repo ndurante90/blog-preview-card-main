@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+html{
+   font-size: 16px;
+}
+
+body{
+    background-color: #F4D04E;
+    position: relative;
+    height: 100vh;
+    margin: 0;
+    font-size: 1rem;
+    font-family: 'Figtree', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.blog-card{
+    background-color: #ffffff;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    height: 29.8rem;
+    width: 17.46rem;
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border: 1px solid #111111;
+    border-radius: 25px;
+    box-shadow: 8px 8px 0 0 #111111 ;
+}
+
+.blog-img{
+   height: 12.5rem;
+}
+
+
+.blog-img img{
+   width: 100%;
+   height: 100%;
+   border-radius: 15px;
+   object-fit: cover;
+}
+
+.blog-card h1{
+   font-size: 1.25rem;
+   font-weight: 800;
+   color: #111111;
+   cursor: pointer;
+}
+
+.blog-card h1:hover{
+   color: #F4D04E;
+}
+
+
+.article-tag{
+   margin-top: 1.5rem;
+   width: 4.56rem;
+   background-color: #F4D04E;
+   color: #111111;
+   font-size: 0.75rem; 
+   font-weight: 800;
+   text-align: center;
+   padding-top: 0.36rem;
+   padding-bottom: 0.36rem;
+   border-radius: 5px;
+}
+
+.article-date{
+   font-weight: 500;
+   font-size: 0.75rem;
+   margin-top: 12px;
+}
+
+.article-text{
+   margin-bottom: 30px;
+   font-weight: 500;
+   font-size: 0.875rem;
+   color: #6b6b6b;
+}
+
+.article-author{
+   font-weight: 800;
+   font-size: 1rem;
+   display: flex;
+   align-items: center;
+   text-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+}
+
+.article-author img{
+   width: 32px;
+   height: 32px;
+   margin-right: 12px;
+}
+
+.blog-card h1{
+   font-size: 1.5rem;
+}
+
+@media screen and (min-width:90rem) {
+   .article-tag{
+      width: 5.125rem;
+      height: 1.25rem;
+   }
+
+   .blog-card{  
+      width: 20.95rem;
+      height: 31.05rem;
+   }
+
+   .article-tag, .article-date{
+      font-size: 0.875rem;
+   }
+
+   .article-text, .article-author{
+      font-size: 1rem;
+   }
+}
